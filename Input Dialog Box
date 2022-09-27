@@ -1,0 +1,14 @@
+package com.mycompany.project1;
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author 4715
+ */
+public class Project1 {
+
+    public static void main(String[] args) {
+    String input = "";
+    input= JOptionPane.showInputDialog("Anda Sedang Belajar Apa?");
+    JOptionPane.showMessageDialog(null, "Belajar "+ input + " sangat mudah");    
+    }
+}
